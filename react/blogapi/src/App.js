@@ -21,7 +21,7 @@ function App() {
 	}, [setAppState]);
 	return (
 		<div className="App">
-			<h1>Posted Documents...</h1>
+			<h1>Posted Records...</h1>
 			<PostLoading isLoading={appState.loading} posts={appState.posts} />
 		</div>
 	);
